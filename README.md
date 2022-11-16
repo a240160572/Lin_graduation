@@ -15,6 +15,12 @@ gym-pybullet-drones ](https://github.com/utiasDSL/gym-pybullet-drones). The main
 ## Example
 The training, evaluation and visualization code files are under folder `/experiments/learning`.
 
+### Data generation
+The training and testing dataset can be generated with
+```
+python3 a0_dataset_gen.py
+```
+
 ### Training
 The libraries used in this project are: [stable-baselines3](https://github.com/DLR-RM/stable-baselines3) and [
 stable-baselines3-contrib](https://github.com/Stable-Baselines-Team/stable-baselines3-contrib).
@@ -69,3 +75,4 @@ The urdf models are under folder `/gym_pybullet_drones/assets`
 $ python3 a0_animation.py --exp ./simple_model_logs/08.30_18.08_t_ppo_opt90_25_1_adam_cpu___FIN/0_PPO1/subs_log
 ```
 > `a0_animation.py` reads the `eva_result_{}.npy` file under argument `--exp`
+

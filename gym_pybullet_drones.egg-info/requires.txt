@@ -1,0 +1,8 @@
+Pillow
+cycler
+gym
+matplotlib
+numpy
+pybullet
+ray[rllib]
+stable_baselines3
